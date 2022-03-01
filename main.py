@@ -49,9 +49,9 @@ def download_song(update, context, link):
         context.bot.send_message(chat_id=update.effective_chat.id, text=f'404\n"{song.trackName}" Not Found')
 
 
-WELCOME = '''Hi
-This is Spotify Downloader!
-You can use the command.'''
+WELCOME = '''Hola Este es bot para descargar musica de 
+Spotify!
+Usa estos commandos o manda el enlace de la canción o playlist.'''
 ARTISTS_MESSAGE = '''send name and name of artist like this: Name artist'''
 SINGLE_MESSAGE = '''send name and name of artist like this:
 Name song
